@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+        <div class="icon">❝</div>
+
+        <h1>Quote of the Day</h1>
+        <p class="subtitle">
+            Get inspired, one quote at a time.
+        </p>
+
+        <section class="quote-card">
+            <p id="quote" aria-live="polite">
+                Believe you can and you're halfway there.
+            </p>
+
+            <h3 id="author">— Theodore Roosevelt</h3>
+        </section>
+
+        <div class="buttons">
+            <button id="newQuoteBtn" type="button">
+                ✨ New Quote
+            </button>
+
+            <button id="copyQuoteBtn" type="button" class="copy-btn">
+                📋 Copy Quote
+            </button>
+        </div>
+
+        <p id="message" role="status"></p>
+
+        <footer>
+            Made with ❤️ for CodeAlpha Internship
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

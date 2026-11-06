@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    padding: 40px 30px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 22px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    color: #764ba2;
+    font-size: 65px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #292347;
+    font-size: 32px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.quote-card {
+    padding: 28px 20px;
+    background: #f6f3ff;
+    border-radius: 15px;
+    border-left: 5px solid #764ba2;
+    margin-bottom: 28px;
+}
+
+#quote {
+    color: #33304b;
+    font-size: 23px;
+    line-height: 1.6;
+    font-style: italic;
+    overflow-wrap: anywhere;
+}
+
+#author {
+    margin-top: 22px;
+    color: #764ba2;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 14px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #764ba2;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background 0.2s;
+}
+
+button:hover {
+    background: #5c3687;
+    transform: translateY(-2px);
+}
+
+.copy-btn {
+    background: #e9e5f5;
+    color: #4c3470;
+}
+
+.copy-btn:hover {
+    background: #d8cdee;
+}
+
+#message {
+    min-height: 22px;
+    margin-top: 16px;
+    color: #4c3470;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 28px;
+    padding-top: 18px;
+    border-top: 1px solid #eee;
+    color: #888;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 30px 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    #quote {
+        font-size: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
