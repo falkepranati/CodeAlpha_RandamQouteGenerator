@@ -1,0 +1,2 @@
+# CodeAlpha_RandamQouteGenerator
+RandamQouteGenerator using HTML CSS JavaScript
